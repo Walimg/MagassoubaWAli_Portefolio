@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez Wali</title>
+    <link href="css.css" rel="stylesheet">
+</head>
+<body>
+    
+    <nav>
+        <div class="container">
+            <h1>Portfolio de Wali</h1>
+            <ul>
+                <li><a href="portefolio.html">Accueil</a></li>
+                <li><a href="experience.html">Expériences</a></li>
+                <li><a href="Projet.html">Projet</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <section>
+        <h2>Contactez-moi</h2>
+        <p>Vous pouvez me joindre via les moyens suivants :</p>
+        <ul>
+            <li><strong>Email :</strong> magassoubawali18@gmail.com</li>
+            <li><strong>Téléphone :</strong> +33 06 50 22 34 56 </li>
+            <li><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/wali-magassouba" target="_blank">linkedin.com/in/wali-magassouba</a></li>
+            <li><strong>Mon CV :</strong> <a href="cv.pdf" target="_blank"> cv</a></li>
+        </ul> 
+
+        <h3>Envoyez-moi un message :</h3>
+        <form action="https://formsubmit.co/magassoubawali18@gmail.com" method="POST">
+            <label for="name">Nom :</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+        
+            <label for="email">Email :</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+        
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+        
+            <input type="hidden" name="_captcha" value="false">
+        
+        
+            <input type="submit" value="Envoyer">
+        </form>
+        
+    </section>
+</body>
+</html>
